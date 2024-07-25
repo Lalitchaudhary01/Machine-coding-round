@@ -95,7 +95,7 @@ const Otp = () => {
         <div className="mt-4 text-center">
           <p className="text-gray-600">
             Didn't receive code?{" "}
-            <a href="#" className="text-blue-500" onClick={sendOtp}>
+            <a href="/" className="text-blue-500" onClick={sendOtp}>
               Resend
             </a>
           </p>
